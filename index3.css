@@ -174,36 +174,32 @@
                 height: 20px;
             }
         }
-        #meta{
-            height: 50px;
-            width: 40px;
-            background-color: rgb(9, 9, 9);
-            border-radius: 20px;
-            display: flex;
-            margin-left: 95%;
-            margin-bottom: 55px;
-            position: sticky;
-            bottom: 35%;
-        }
-        #meta img{
-            height: 50px;
-            width: 50px;
-            border-radius: 10px;
-        }
-        #contact{
-            height: 50px;
-            width: 40px;
-            background-color: rgb(9, 9, 9);
-            border-radius: 20px;
-            display: flex;
-            margin-left: 95%;
-            margin-bottom: 55px;
-            position: sticky;
-            bottom: 25%;
-            
-        }
-        #contact img{
-            height: 50px;
-            width: 450px;
-            border-radius: 10px;
-        }
+        #meta, #contact {
+    width: 8vw;
+    height: 8vw;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: rgb(9, 9, 9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+}
+
+#meta {
+    bottom: 35%;
+}
+
+#contact {
+    bottom: 25%;
+}
+
+#meta img, #contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
