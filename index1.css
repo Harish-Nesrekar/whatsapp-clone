@@ -1,0 +1,134 @@
+* {
+    overflow-x: hidden;
+}
+
+nav {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;  
+}
+
+nav p {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+nav img {
+    position: relative;
+    
+    
+}
+
+
+article {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+#text {
+    display: flex;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+    position: relative;
+    right: 80px;
+}
+
+#h {
+    position: relative;
+    right: 78px;
+    width: 30px;
+}
+
+#c {
+    bottom: 39px;
+    position: relative;
+    right: -50%;
+}
+
+#b {
+    position: relative;
+    left: -50%;
+    width: 220px;
+}
+
+input {
+    border: none;
+    outline: none; /* Removes blue glow on focus */
+    box-shadow: none; /* Removes any default shadow */
+    background-color: transparent; /* Optional: remove background */
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input::placeholder {
+    color: #aaa; /* Optional: style the placeholder */
+}
+
+input:placeholder-shown {
+    border: none;
+}
+
+
+#country {
+    margin-top: 10px;
+    color: rgb(105, 109, 105);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+hr {
+    padding: 0px 0px;
+    background-color: rgb(76, 239, 163);
+    width: 200px;
+    height: 2px;
+}
+
+#text2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(116, 117, 118);
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(61, 243, 61);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.information{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: rgb(63, 168, 168);
+}
